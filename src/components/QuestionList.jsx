@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // const ArrowList = ({tu}) => {};
 
 // function SimpleList({tu}) {}
@@ -6,9 +8,9 @@ const QuestionListItem = ({ item }) => {
   console.log(item);
 
   return (
-    <>
-      <li style={{ listStyle: "none" }}>{item.question_text}</li>
-    </>
+    <li style={{ listStyle: "none" }}>
+      <Link to="/detail/">{item.question_text}</Link>
+    </li>
   );
 };
 
