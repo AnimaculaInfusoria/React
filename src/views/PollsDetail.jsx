@@ -1,7 +1,9 @@
+import Header from "../components/Header";
+
 function PollsDetail() {
   return (
     <>
-      <h1>Polls Detail</h1>
+      <Header title={"Detail"}/>
     </>
   );
 }

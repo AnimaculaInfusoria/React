@@ -1,11 +1,17 @@
+import Header from "../components/Header";
 
-function Home() {
+
+function Home({ text, druha, tretia }) {
+  // for (let i = 0; i < 100; i++) {
+  //   console.log(i);
+  // }
+
+  // console.log(druha, tretia)
+
   return (
     <>
-      <h1>Home</h1>
-      <p>
-        Vitaj ;)
-      </p>
+      <Header title={"Home"}/>
+      <p>{text}</p>
     </>
   );
 }
