@@ -8,11 +8,6 @@ const QuestionListItem = ({ item }) => {
   return (
     <>
       <li style={{ listStyle: "none" }}>{item.question_text}</li>
-      <ul>
-        {item.choices.map((choice) => {
-          return <li>{choice.text}</li>;
-        })}
-      </ul>
     </>
   );
 };
