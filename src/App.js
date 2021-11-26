@@ -30,7 +30,7 @@ function App() {
     // </div>
     <Router>
       <nav>
-        <Link to="/detail">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/list">Zoznam</Link>
         <Link to="/detail">Detail</Link>
       </nav>
