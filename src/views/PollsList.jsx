@@ -7,7 +7,7 @@ function PollsList() {
   let questions = [
     {
       id: 1,
-      question_text: "Ako sa mas",
+      question_text: "Ako sa mas?",
       choices: [
         {
           id: 1,

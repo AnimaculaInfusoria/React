@@ -42,7 +42,7 @@ function App() {
           <PollsDetail />
         </Route>
         <Route path="/">
-          <Home text={"Ahoj"} druha={1} tretia={{cislo: 1, text: 'Cau'}}/>
+          <Home text={"Ahoj, otazku najdes v Zoznam"} druha={1} tretia={{cislo: 1, text: 'Cau'}}/>
         </Route>
       </Switch>
     </Router>

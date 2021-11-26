@@ -10,7 +10,7 @@ function Home({ text, druha, tretia }) {
 
   return (
     <>
-      <Header title={"Home"}/>
+      <Header title={"Domov"}/>
       <p>{text}</p>
     </>
   );
